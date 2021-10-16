@@ -60,6 +60,7 @@
 //Now let's use leaner code to get same ascending sort order results.
 
 //How this works: "return a - b" is pointing to first two numbers and returning the smallest value of the pair til it reaches null.
+
 //Rule: if value is postive or negative-- e.g. 100 - 4 = value  IF value is a positive number value that means (a > b)and you have to swap them so that b (the least value) comes befor a (the largest value) in the sort.
 //if the value is negative as in 2 - 5 = -3 that means (a < b) so return a
 //But what about 5 - 100 = -95, if value is negative, that means a < b so return a.
@@ -68,11 +69,20 @@
 //* 2 - 5 = -3 ;  100 - 4 = 96
 //* returns 2    returns -4
 //* 5 - 100 returns 5 ; 100 returns 100
-const numbers = [2, 5, 100, 4]
+//const numbers = [2, 5, 100, 4]
 
+//const sortedNumbers = numbers.sort((a, b) => {
+//  return a - b;
+//});
+
+//console.log(sortedNumbers)
+
+//Now do Descending Order. RULE if Value is Positive a > b. IF Value is negative a < b
+
+const numbers = [2, 5, 100, 4]
 const sortedNumbers = numbers.sort((a, b) => {
-  return a - b;
-});
+  return b - a
+})
 
 console.log(sortedNumbers)
 
