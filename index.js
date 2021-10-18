@@ -1,12 +1,13 @@
 const spiceGirls = [
   { name: 'ginger', age: 37 },
-  { name:'sporty', age: 30 },
+  { name:'scary', age: 30 },
   { name: 'baby', age: 19 },
   { name: 'posh', age: 20 },
-]
+
+  ]
 
 const comparator = (a, b) => {
-  return a.age - b.age;
+  return a.name.length - b.name.length;
 
 }
 console.log(spiceGirls.sort(comparator))
