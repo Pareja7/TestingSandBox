@@ -1,3 +1,16 @@
+const spiceGirls = [
+  { name: 'ginger', age: 37 },
+  { name:'sporty', age: 30 },
+  { name: 'baby', age: 19 },
+  { name: 'posh', age: 20 },
+]
+
+const comparator = (a, b) => {
+  return a.age - b.age;
+
+}
+console.log(spiceGirls.sort(comparator))
+
 
 //*Find the UTF charcodeAT for each substring character and print the charCodeAt no. AND the corresponding letter.
 //const letters = ['b', 'P', 'c', 'a'];
@@ -79,10 +92,10 @@
 
 //Now do Descending Order. RULE if Value is Positive a > b. IF Value is negative a < b
 
-const numbers = [2, 5, 100, 4]
-const sortedNumbers = numbers.sort((a, b) => {
-  return b - a
-})
+//const numbers = [2, 5, 100, 4]
+//const sortedNumbers = numbers.sort((a, b) => {
+//  return b - a
+//})
 
-console.log(sortedNumbers)
+//console.log(sortedNumbers)
 
