@@ -1,16 +1,22 @@
-const spiceGirls = [
-  { name: 'ginger', age: 37 },
-  { name:'scary', age: 30 },
-  { name: 'baby', age: 19 },
-  { name: 'posh', age: 20 },
+const names = ['Luis','Jose','John','Aaron'];
+console.log(names.sort())//['Aaron', 'John', 'Jose', 'Luis']
 
-  ]
 
-const comparator = (a, b) => {
-  return a.name.length - b.name.length;
 
-}
-console.log(spiceGirls.sort(comparator))
+
+//const spiceGirls = [
+  //{ name: 'ginger', age: 37 },
+  //{ name:'scary', age: 30 },
+  //{ name: 'baby', age: 19 },
+  //{ name: 'posh', age: 20 },
+
+  //]
+
+//const comparator = (a, b) => {
+ // return a.name.length - b.name.length;
+
+//}
+//console.log(spiceGirls.sort(comparator))
 
 
 //*Find the UTF charcodeAT for each substring character and print the charCodeAt no. AND the corresponding letter.
