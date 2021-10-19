@@ -1,5 +1,21 @@
-const names = ['Luis','Jose','John','Aaron'];
-console.log(names.sort())//['Aaron', 'John', 'Jose', 'Luis']
+
+//*Complex Sorting
+const users = [
+  {names: 'Luis', age:25},
+  {names: 'Jose', age:20},
+  {names: 'Aaron', age:40}
+];
+
+const compareFuc = (item1,item2) => {
+  return item1.age - item2.age
+
+};
+console.log(users.sort(compareFuc))
+
+
+
+//const names = ['Luis','Jose','John','Aaron'];
+//console.log(names.sort())//['Aaron', 'John', 'Jose', 'Luis']
 
 
 
