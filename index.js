@@ -1,13 +1,30 @@
 
+
+//ITERATION METHODS
+
+//* forEach - O(n)
+// Just execute a function for each element in the array.
+
+const names = ['Luis', 'Jose', 'John', 'Aaron'];
+
+names.forEach(item => {
+  console.log(item);
+});
+//*print all user names
+
+
+
+
+
 //*ACCESSOR METHODS
 
 //* indexOf()Method
 //Return the first index of the element that exist in the array [return the index of the element in the array], IF DOSEN'T EXIST RETURN -1.
 
-const names = ['Luis', 'Jose', 'Aaron'];
+//const names = ['Luis', 'Jose', 'Aaron'];
 
-console.log(names.indexOf('Aaron'));
-console.log(names.indexOf('Black Karen Batshit Crazy'))
+////console.log(names.indexOf('Aaron'));
+//console.log(names.indexOf('Black Karen Batshit Crazy'))
 
 
 
