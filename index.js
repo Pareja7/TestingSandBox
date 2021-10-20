@@ -1,16 +1,26 @@
 
+//*ACCESSOR METHODS
+//** Concat()Method. - O(n)
+
+const names1 = ["Luis", "Jose"];
+const names2 = ["John", "Aaron"];
+const newArray = names1.concat(names2,["Michelle"]);
+
+console.log(newArray)
+
+
 //*Complex Sorting
-const users = [
-  {names: 'Luis', age:25},
-  {names: 'Jose', age:20},
-  {names: 'Aaron', age:40}
-];
+//const users = [
+  //{names: 'Luis', age:25},
+  //{names: 'Jose', age:20},
+  //{names: 'Aaron', age:40}
+//];
 
-const compareFuc = (item1,item2) => {
-  return item1.age - item2.age
+//const compareFuc = (item1,item2) => {
+  //return item1.age - item2.age
 
-};
-console.log(users.sort(compareFuc))
+//};
+//console.log(users.sort(compareFuc))
 
 
 

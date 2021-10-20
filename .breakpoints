@@ -2,10 +2,22 @@
   "files": {
     "index.js": [
       {
+        "id": "d8a6c00a-469e-46c3-9cfb-fc883b3b4542",
+        "line": 15,
+        "version": 3938,
+        "index": 263
+      },
+      {
+        "id": "5cff5ae4-0ec9-4663-9ac6-ae1484449f19",
+        "line": 19,
+        "version": 3938,
+        "index": 325
+      },
+      {
         "id": "4710d2b9-a231-4523-95ea-effa39c03d2b",
-        "line": 62,
-        "version": 3696,
-        "index": 1321
+        "line": 72,
+        "version": 3938,
+        "index": 1531
       }
     ]
   }
