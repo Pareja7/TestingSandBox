@@ -1,17 +1,32 @@
 
 //*ACCESSOR METHODS
 
+//* indexOf()Method
+//Return the first index of the element that exist in the array [return the index of the element in the array], IF DOSEN'T EXIST RETURN -1.
+
+const names = ['Luis', 'Jose', 'Aaron'];
+
+console.log(names.indexOf('Aaron'));
+console.log(names.indexOf('Black Karen Batshit Crazy'))
+
+
+
+
+
+
+
+
+
 //*Slice()Method
-const users = [
-  {name: 'Luis', age:15},
-  {name: 'Jose', age: 18},
-  {name: 'Aaron', age: 40}  
-]
-const adults = users.slice(1, users.length);
-console.log(adults)
+//**  Return a copy of a sub array between two inex, start and end. NOTE: if you modify the original array, the value will be modified in the copy array.
 
-
-
+//const users = [
+  //{name: 'Luis', age:15},
+  //{name: 'Jose', age: 18},
+  //{name: 'Aaron', age: 40}  
+//]
+//const adults = users.slice(1, users.length);
+//console.log(adults)
 
 
 //** Concat()Method. - O(n)
