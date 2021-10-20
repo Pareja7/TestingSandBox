@@ -1,12 +1,26 @@
 
 //*ACCESSOR METHODS
+
+//*Slice()Method
+const users = [
+  {name: 'Luis', age:15},
+  {name: 'Jose', age: 18},
+  {name: 'Aaron', age: 40}  
+]
+const adults = users.slice(1, users.length);
+console.log(adults)
+
+
+
+
+
 //** Concat()Method. - O(n)
 
-const names1 = ["Luis", "Jose"];
-const names2 = ["John", "Aaron"];
-const newArray = names1.concat(names2,["Michelle"]);
+//const names1 = ["Luis", "Jose"];
+//const names2 = ["John", "Aaron"];
+//const newArray = names1.concat(names2,["Michelle"]);
 
-console.log(newArray)
+//console.log(newArray)
 
 
 //*Complex Sorting
