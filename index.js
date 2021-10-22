@@ -1,15 +1,45 @@
 
 
+//* Filter() - O(n)
+//- Create a new array with the elements that apply the given filter condition as true.
+
+const users = [
+  {name:'Luis', admin:true},
+  {name:'Jose', admin:true},
+  {name:'Aaron'}
+];
+const adminUsers = users.filter(item => item.admin);
+console.log(adminUsers);
+//[{name:'Luis', admin:true},{name:'Jose', admin:true}]
+
+
+//* Map() Method
+//-Create a new array with the result of a call back fn (this fn is executed for each item sam as forEach metohd)
+
+//const users = [
+  //{name:'Luis', age:15},
+  //{name:'Jose', age:18},
+  //{name:'Aaron', age:40}
+
+//];
+//const userDescriptions = users.map(item => {
+  //return `Hello my name is ${item.name} and I am ${item.age} years old.`
+
+//});
+//console.log(userDescriptions)
+
+
+
 //ITERATION METHODS
 
 //* forEach - O(n)
 // Just execute a function for each element in the array.
 
-const names = ['Luis', 'Jose', 'John', 'Aaron'];
+//const names = ['Luis', 'Jose', 'John', 'Aaron'];
 
-names.forEach(item => {
-  console.log(item);
-});
+//names.forEach(item => {
+  //console.log(item);
+//});
 //*print all user names
 
 
