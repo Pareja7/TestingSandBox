@@ -1,15 +1,40 @@
 
+//* Reducer() - O(n)
+//- Return a single value after applying the reduction function for each element.
+
+const users = [
+  {name:'Luis', age:15},
+  {name:'Jose', age:18},
+  {name:'Aaron', age:40}
+
+];
+// requires 3 functions
+const reducer = (accumulator, item) => accumulator + item.age;
+const totalAge = users.reduce(reducer,0);
+const ageAverage =totalAge / users.length; //divided by
+console.log(`Total ${totalAge}, Average ${ageAverage}`); 
+//retuns Total 73, Average age 24.3333333
+
+
+
+
+
+
+
+
+
+
 
 //* Filter() - O(n)
 //- Create a new array with the elements that apply the given filter condition as true.
 
-const users = [
-  {name:'Luis', admin:true},
-  {name:'Jose', admin:true},
-  {name:'Aaron'}
-];
-const adminUsers = users.filter(item => item.admin);
-console.log(adminUsers);
+//const users = [
+  //{name:'Luis', admin:true},
+  //{name:'Jose', admin:true},
+  //{name:'Aaron'}
+//];
+//const adminUsers = users.filter(item => item.admin);
+//console.log(adminUsers);
 //[{name:'Luis', admin:true},{name:'Jose', admin:true}]
 
 
